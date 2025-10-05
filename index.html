@@ -3,83 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NSF HSI Project</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: green;
-            padding: 1rem;
-        }
-        .navbar a {
-            color: white;
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-        }
-        .navbar a:hover {
-            background-color: #575757;
-        }
-        .navbar .logo {
-	    color: white;
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
-        .navbar .menu {
-            display: flex;
-            gap: 1rem;
-        }
-	.container {
-            display: flex;
-            flex-wrap: wrap;
-            padding: 1rem;
-        }
-        .main-content {
-            flex: 3;
-            padding: 1rem;
-        }
-        .sidebar {
-            flex: 1;
-            padding: 1rem;
-            background-color: #f4f4f4;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        p {
-            color: #555;
-        }
-    </style>
+    <title>A Holistic Approach to Improve Learning and Motivation in CS1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">NSF HSI Project</div>
-        <div class="menu">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#project">Project</a>
-            <a href="#contact">Contact</a>
-        </div>
+    <nav class="sidebar">
+        <a href="index.html">Introduction</a>
+        <a href="#">Visual Programming</a>
+        <a href="#">Game Development</a>
     </nav>
-        <div class="container">
-        <div class="main-content">
-            <h1>Welcome to the project</h1>
-	    <p></p>
-            
-            <h2>About the project</h2>
-	    <p></p>
-        </div>
-        
-        <div class="sidebar">
-            <h2>Sidebar</h2>
-            <p>This is a sidebar where you can place additional information, links, or advertisements. It is styled to be visually distinct from the main content area.</p>
-        </div>
-    </div>    
 
+    <div class="main-content">
+        <header>
+            <div class="container">
+                <h1>A Holistic Approach to Improve Learning and Motivation in CS1</h1>
+            </div>
+        </header>
+
+        <div class="container">
+            <section id="introduction">
+                <h2>Introduction</h2>
+                <p>This project, based at Georgia Gwinnett College, integrates high-impact practices and automated tools to create a holistic approach for improving student learning and motivation in the introductory programming course (CS1). The primary goal is to address the challenges of high failure rates and low student retention, particularly among underrepresented groups in the IT field.</p>
+            </section>
+
+            <section id="the-problem">
+                <h2>The Challenge</h2>
+                <p>The introductory programming course, ITEC-2140 (Programming Fundamentals), has been identified as a significant bottleneck for students, with high failure rates and low continuation to subsequent courses. This project aims to reverse this trend by creating a more engaging and supportive learning environment.</p>
+            </section>
+
+            <section id="our-approach">
+                <h2>Our Holistic Approach</h2>
+                <p>We employ a multi-pronged strategy that caters to diverse learning styles. Our approach is structured into three parallel threads:</p>
+                <ul>
+                    <li><strong>The Main Thread:</strong> Core learning activities including Process-oriented Group Inquiry Learning (<a href="https://www.pogil.org/" target="_blank">POGIL</a>), auto-graded tracing exercises (<a href="https://tracing-quiz.herokuapp.com/" target="_blank">TracingQuiz</a>), and the Iterative Problem-Solving Strategy Detection and Development (IPSSDD).</li>
+                    <li><strong>The Peer-driven Visual Programming Thread:</strong> A library of peer-recorded videos introducing concepts in a visual programming environment.</li>
+                    <li><strong>The Game Development Thread:</strong> A semester-long, team-based game development project for hands-on learning.</li>
+                </ul>
+            </section>
+
+            <section id="the-team">
+                <h2>The Team</h2>
+                <div class="team-member"><strong>Dr. Wei Jin</strong>, Professor of ITEC</div>
+                <div class="team-member"><strong>Dr. Tacksoo Im</strong>, Professor of ITEC</div>
+                <div class="team-member"><strong>Dr. Xin Xu</strong>, Professor of ITEC</div>
+                <div class="team-member"><strong>Dr. Evelyn Brannock</strong>, Associate Professor of ITEC</div>
+                <div class="team-member"><strong>Dr. Hyesung Park</strong>, Associate Professor of ITEC</div>
+            </section>
+        </div>
+
+        <footer>
+            <p>This material is based upon work supported by the National Science Foundation under Grant No. 2345097.</p>
+        </footer>
+    </div>
 </body>
 </html>
-
